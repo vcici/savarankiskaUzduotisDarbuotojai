@@ -18,13 +18,13 @@ class Darbuotojas{
     }
 
     public gpm(){
-        return this.atlyginimas*0.2;
+        return this._atlyginimas*0.2;
     }
     public psd(){
-        return this.atlyginimas*0.0698;
+        return this._atlyginimas*0.0698;
     }
     public vsd(){
-        return this.atlyginimas*0.1252;
+        return this._atlyginimas*0.1252;
     }
 }
 
